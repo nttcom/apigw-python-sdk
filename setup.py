@@ -14,5 +14,8 @@ setup(
     keywords = "apigw api sdk B2B",
     url='https://github.com/nttcom/apigw-python-sdk',
     packages = ["apigw"],
+    package_data = {
+                'apigw': ['requirements.txt'],
+    },
     install_requires = open('requirements.txt').read().splitlines(),
 )
