@@ -17,5 +17,5 @@ setup(
     package_data = {
                 'apigw': ['requirements.txt'],
     },
-    install_requires = open('requirements.txt').read().splitlines(),
+    install_requires = ['requests==2.7.0'],
 )
