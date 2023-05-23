@@ -17,5 +17,5 @@ setup(
     package_data = {
                 'apigw': ['requirements.txt'],
     },
-    install_requires = ['requests==2.7.0'],
+    install_requires = ['requests==2.31.0'],
 )
